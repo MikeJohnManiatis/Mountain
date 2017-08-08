@@ -10,10 +10,7 @@ namespace Mountain.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            // Comment to test GitHub
-            //TEST
-
+        {      
             ViewBag.currentTime = DateTime.Now;
             return View();
         }
