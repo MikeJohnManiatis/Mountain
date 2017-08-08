@@ -11,6 +11,8 @@ namespace Mountain.Controllers
     {
         public ActionResult Index()
         {
+            // Comment to test GitHub
+            //TEST
 
             ViewBag.currentTime = DateTime.Now;
             return View();
