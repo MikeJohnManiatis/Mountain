@@ -19,10 +19,10 @@ namespace Mountain
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
-           name: "Hello",
-           url: "{controller}/{action}/{id}"
-         );
+           routes.MapRoute(
+           name: "Contact",
+           url: "{controller}/{action}/{id}#{locid}"
+            );
         }
     }
 }

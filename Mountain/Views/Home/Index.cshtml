@@ -16,12 +16,11 @@
 <br />
 
 <div class="container-fluid">
-
     <!-- start first row-->
     <div class="row">
         <div class="container">
                 <div class="col-md-4">
-                    <a href="WebDev/Index">
+                    <a href="/WebDev/Index">
                         <div class="card">
                             <img src="../Images/webDev1280.jpg" style="width:100%" />
                             <div class="container">
@@ -43,7 +42,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="Misc/Index">
+                <a href="/Misc/Index">
                     <div class="card">
                         <img src="../Images/misc1280.jpg" style="width:100%">
                         <div class="container">
@@ -60,23 +59,66 @@
     <!-- start second row -->
     <div class="row">
         <div class="container">
-            <h1 style="text-align: center"> About Me</h1>
+            <h1 style="text-align: center" id="aboutme"> About Me</h1>
 
-            <div class="col-md-4" style="border-right: solid 1px lightgray"> 
-                <p> Hi! </p>
+            <div class="col-md-4"> 
+                <h2> Hi! </h2>
                 <p>Thank you for coming to my website. My Name is Mike Maniatis, and I'm a full-stack web developer. I'm currently a student at the University of Iowa, studying in Computer Science & Journalism. </p>
             </div>
 
-            <div class="col-md-4" style="border-right: solid 1px lightgray">
-                <p> As much as I love to work I also like to have fun!</p>
+            <div class="col-md-4">
+                <h2> As much as I love to work I also like to have fun!</h2>
                 <p> My favorite hobbies are fishing, traveling, video games, and coding. Bass fishing is the best kind of fishing (no matter what anyone says), Seattle was my favorite vacation, Counter-Strike: Source will always
                     be my favorite video game, and C# is my favorite language!<p>
             </div>
 
             <div class="col-md-4">
+                <h2> This will be an image of me and lauren!</h2>
 
             </div>
         </div>
     </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4">
+                <h2> Reading List: </h2>
+                    <ol>
+                        <li>
+                            The Pragmatic Programmer: From Journeyman to Master - Andrew Hunt
+                        </li>
+                        <li>
+                           Letters From Iowa Jima - Kumiko Kakehashi
+                        </li>
+                    </ol>
+                    
+            </div>
+        </div>
+    </div>
     <!-- end of second row -->
+    <hr />
+
+    <!-- start of fourth row -->
+
+    <div class="row">
+        <div class="container">
+            <h1 style="text-align: center"> Contact Me! </h1>
+
+            <div class="col-md-4">
+                <form action="mailto:mikejohnmaniatis@gmail.com" method="post" enctype="text/plain">
+                    <p>Name:</p>
+                    <input type="text" name="name">
+                    <p>E-mail:</p>
+                    <input type="text" name="mail">
+                    <p>Comment:</p>
+                    <input type="text" name="comment" size="50"><br />
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+         </div>
+    </div>
+    <!-- end of the fourth row-->
 </div>
