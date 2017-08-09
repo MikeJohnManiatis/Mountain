@@ -142,6 +142,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MiscController.cs" />
+    <Compile Include="Controllers\WebDesignController.cs" />
+    <Compile Include="Controllers\WebDevController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,7 +157,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\webDev.jpg" />
+    <Content Include="Images\misc1280.jpg" />
+    <Content Include="Images\webDesign1280.jpg" />
+    <Content Include="Images\webDev1280.jpg" />
+    <Content Include="Images\webDev640.jpg" />
+    <Content Include="Images\heroImage640.jpg" />
+    <Content Include="Images\heroImage1280.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -185,6 +193,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\WebDev\Index.cshtml" />
+    <Content Include="Views\Misc\Index.cshtml" />
+    <Content Include="Views\WebDesign\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

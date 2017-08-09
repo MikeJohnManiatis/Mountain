@@ -10,8 +10,8 @@ namespace Mountain.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {      
-            ViewBag.currentTime = DateTime.Now;
+        {
+            ViewBag.currentTime = DateTime.Now.ToString("MM/dd/yyyy");
             return View();
         }
 

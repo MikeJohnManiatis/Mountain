@@ -1,39 +1,63 @@
-﻿<h1>My Resume</h1>
-<h2> @ViewBag.currentTime </h2>
+﻿@*<script>
+
+    $(".card").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+
+</script>*@
+
+
+<div class="Hero-Image" style="width:100%;">
+    <h1 style="text-align:center; font-size=3.2rem;">Mike Maniatis</h1>
+    <h3 style="text-align:center"> @ViewBag.currentTime </h3>
+</div>
+
+<br />
 
 <div class="container-fluid">
-    <h1> My Skills</h1>
+
     <div class="row">
         <div class="container">
+
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src= "../Images/webDev.jpg" style="width:100%" />
-                        <div class="container">
-                            <h4><b>.NET Web Development</b></h4>
-                            <p>C# & SQL</p>
+                    <a href="WebDev/Index">
+                        <div class="card">
+                            <img src="../Images/webDev1280.jpg" style="width:100%" />
+                            <div class="container">
+                                <h4><b>.NET Web Development</b></h4>
+                                <p>C# & SQL</p>
+                            </div>
                         </div>
-                    </div>    
-                </div>
+                    </a>
+                    </div>
 
             <div class="col-md-4">
-                <div class="card">
-                    <img src="../Images/webDev.jpg" style="width:100%">
-                    <div class="container">
-                        <h4><b>Software Developer</b></h4>
-                        <p>Java</p>
+                <a href="WebDesign/Index">
+                    <div class="card">
+                        <img src="../Images/webDesign1280.jpg" style="width:100%">
+                        <div class="container">
+                            <h4><b>Web Design</b></h4>
+                            <p>HTML/CSS/Javascript</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <div class="card">
-                    <img src="../Images/webDev.jpg" style="width:100%">
-                    <div class="container">
-                        <h4><b>Web Developmer</b></h4>
-                        <p>.NET</p>
+                <a href="Misc/Index">
+                    <div class="card">
+                        <img src="../Images/misc1280.jpg" style="width:100%">
+                        <div class="container">
+                            <h4><b>Miscellaneous</b></h4>
+                            <p>Java/Python/Journalism</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+
+
+
         </div>
    </div>
 </div>

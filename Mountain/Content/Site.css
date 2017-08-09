@@ -21,7 +21,14 @@ input,
 select,
 textarea {
     max-width: 280px;
+
 }
+
+
+
+
+/* ********************************************************* */
+/* BEGIN HOME PAGE CSS*/
 
 .card {
     /* Add shadows to create the "card" effect */
@@ -31,10 +38,69 @@ textarea {
 
     /* On mouse-over, add a deeper shadow */
     .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+        width: 95%;
+        height: 95%;
     }
 
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
 }
+
+.Hero-Image {
+    background-image: url("../Images/heroImage1280.jpg");
+    height: 300px;
+}
+
+h1 {
+	font-family: "Paytone One";
+	font-size: 3rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h2 {
+    font-family: "Paytone One";
+	font-size: 2rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: "Paytone One";
+	font-size: 1.2rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: "Paytone One";
+	font-size: 1.2rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* END HOME PAGE CSS */
+/* ********************************************************* */
