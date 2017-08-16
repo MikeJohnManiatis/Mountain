@@ -84,16 +84,18 @@
     <div class="row">
         <div class="container">
             <div class="col-md-4">
-                <h2> Reading List: </h2>
+
+                <h2> Reading List: <button id="readNext"></button> </h2>
                     <ol>
-                        <li>
-                            The Pragmatic Programmer: From Journeyman to Master - Andrew Hunt
-                        </li>
-                        <li>
-                           Letters From Iowa Jima - Kumiko Kakehashi
-                        </li>
+                        @{
+
+                            var currentBook = @ViewBag.book1;
+
+                            <li> @currentBook</li>
+                        }
+
                     </ol>
-                    
+
             </div>
         </div>
     </div>
