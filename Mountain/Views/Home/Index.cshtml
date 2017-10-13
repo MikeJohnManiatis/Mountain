@@ -31,11 +31,11 @@
                     </a>
                     </div>
             <div class="col-md-4">
-                <a href="/WebDesign/Index">
+                <a href="/StuLife/Index">
                     <div class="card">
                         <img src="../Images/webDesign1280.jpg" style="width:100%">
                         <div class="container">
-                            <h4><b>Web Design</b></h4>
+                            <h4><b>Student Life</b></h4>
                             <p>HTML/CSS/Javascript</p>
                         </div>
                     </div>
@@ -68,8 +68,7 @@
 
             <div class="col-md-4">
                 <h2> As much as I love to work I also like to have fun!</h2>
-                <p> My favorite hobbies are fishing, traveling, video games, and coding. Bass fishing is the best kind of fishing (no matter what anyone says), Seattle was my favorite vacation, Counter-Strike: Source will always
-                    be my favorite video game, and C# is my favorite language!<p>
+                <p> My favorite hobbies are fishing, traveling, video games, and coding. Bass fishing is the best kind of fishing, Seattle was my favorite vacation, and C# is my favorite language!<p>
             </div>
 
             <div class="col-md-4">
@@ -87,13 +86,10 @@
 
                 <h2> Reading List: <button id="readNext"></button> </h2>
                     <ol>
-                        @{
-
-                            var currentBook = @ViewBag.book1;
-
-                            <li> @currentBook</li>
+                        @foreach(var item in ViewBag.bookList)
+                        {
+                            <li> @item</li>
                         }
-
                     </ol>
 
             </div>
@@ -106,7 +102,7 @@
 
     <div class="row">
         <div class="container">
-            <h1 style="text-align: center"> Contact Me! </h1>
+            <h1 style="text-align: center"> Send me an email!</h1>
 
             <div class="col-md-4">
                 <form action="mailto:mikejohnmaniatis@gmail.com" method="post" enctype="text/plain">

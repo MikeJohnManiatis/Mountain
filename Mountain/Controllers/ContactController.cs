@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Mountain.Controllers
 {
-    public class WebDesignController : Controller
+    public class ContactController : Controller
     {
-        // GET: WebDesign
+        // GET: Contact
         public ActionResult Index()
         {
             return View();

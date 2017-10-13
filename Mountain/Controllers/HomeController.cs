@@ -13,16 +13,11 @@ namespace Mountain.Controllers
         {
             ViewBag.currentTime = DateTime.Now.ToString("MM/dd/yyyy");
 
-            //List<string> bookList = new List<string>();
-            //bookList.Add("Pragmatic Programmer");
-            //bookList.Add("Testing 2");
-
-
-            //added this in the view incomplete.
-
-            ViewBag.book1 = "Pragmatic Programmer";
-            ViewBag.book2 = "Iwo Jima";
-
+            List<string> bookList = new List<string>();
+            bookList.Add("Book1");
+            bookList.Add("Book2");
+            bookList.Add("Book3");
+            ViewBag.BookList = bookList;
 
            
             
