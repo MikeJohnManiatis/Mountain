@@ -21,7 +21,7 @@ namespace Mountain
 
            routes.MapRoute(
            name: "Contact",
-           url: "{controller}/{action}/{id}#{locid}"
+           url: "{controller}/{action}"
             );
         }
     }

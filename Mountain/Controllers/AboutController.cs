@@ -11,6 +11,7 @@ namespace Mountain.Controllers
         // GET: About
         public ActionResult Index()
         {
+            ViewBag.selfPic = Url.Content("../Images/selfPic.jpg");
             return View();
         }
     }

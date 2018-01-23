@@ -1,0 +1,60 @@
+﻿@*<script>
+
+    $(".card").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+
+</script>*@
+
+
+<div class="Hero-Image" style="width:100%;">
+    <h1 style="text-align:center; font-size=3.2rem;">Mike Maniatis</h1>
+    <h2 style="text-align:center; font-size=3.2rem;">WEBSITE UNDER CONSTRUCTION!</h2>
+    <h3 style="text-align:center"> @ViewBag.currentTime </h3>
+</div>
+
+<br />
+<br />
+
+<div class="container-fluid">
+    <!-- start first row-->
+    <div class="row">
+        <div class="container">
+                <div class="col-md-4">
+                    <a href="/WebDev/Index">
+                        <div class="card">
+                            <img src="../Images/webDev1280.jpg" style="width:100%" />
+                            <div class="container">
+                                <h4><b>.NET Web Development</b></h4>
+                                <p>C# & SQL (HTML/CSS/JavaScript)</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+            <div class="col-md-4">
+                <a href="/StuLife/Index">
+                    <div class="card">
+                        <img src="../Images/webDesign1280.jpg" style="width:100%">
+                        <div class="container">
+                            <h4><b>Student Life</b></h4>
+                            <p>The University of Iowa</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/Misc/Index">
+                    <div class="card">
+                        <img src="../Images/misc1280.jpg" style="width:100%">
+                        <div class="container">
+                            <h4><b>Miscellaneous</b></h4>
+                            <p>Java/Python/Journalism</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+   </div>
+    <!-- end of first row -->
+</div>
