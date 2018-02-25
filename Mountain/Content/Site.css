@@ -1,6 +1,6 @@
 ﻿* {
     font-family: "Paytone One";
-    color: #DCDCDC;
+    color: black;
 }
 
 body {
@@ -56,7 +56,7 @@ textarea {
 .Hero-Image {
     text-align: left;
     height: 300px;
-    background-color:darkgray;
+    background-image: url("../images/heroImage1280.jpg");
 }
 
 h1 {
