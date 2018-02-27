@@ -229,3 +229,4 @@ C:\Users\mikej\Documents\Visual Studio 2017\Projects\mountain\Mountain\Mountain\
 C:\Users\mikej\Documents\Visual Studio 2017\Projects\mountain\Mountain\Mountain\obj\Debug\Mountain.csproj.App.config
 C:\Users\mikej\Documents\Visual Studio 2017\Projects\mountain\Mountain\Mountain\obj\Debug\Mountain.dll
 C:\Users\mikej\Documents\Visual Studio 2017\Projects\mountain\Mountain\Mountain\obj\Debug\Mountain.pdb
+C:\Users\mikej\Documents\Visual Studio 2017\Projects\mountain\Mountain\Mountain\obj\Debug\Mountain.csprojResolveAssemblyReference.cache

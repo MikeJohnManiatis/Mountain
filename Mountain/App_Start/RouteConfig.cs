@@ -19,10 +19,22 @@ namespace Mountain
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-           routes.MapRoute(
-           name: "Contact",
-           url: "{controller}/{action}"
+            routes.MapRoute(
+            name: "Contact",
+            url: "{controller}/{action}"
             );
+
+            routes.MapRoute(
+                name: "TmbdApiPaging",
+                url: "TmbdApi/{title}/{page}",
+                defaults: new { controller = "movie", action = "Index", title = "", page = "" }, 
+                constraints: new { title = @"^[a-zA-Z]+$", page = @"^[0-9]+$" }
+              
+                );
+            
+
         }
+
+
     }
 }

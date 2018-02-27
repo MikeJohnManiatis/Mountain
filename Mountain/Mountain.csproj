@@ -146,16 +146,22 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Class\PagingHelper.cs" />
+    <Compile Include="Class\PagingInfo.cs" />
+    <Compile Include="Class\ResponseTitleSearch.cs" />
+    <Compile Include="Class\Result.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MiscController.cs" />
+    <Compile Include="Controllers\movieController.cs" />
     <Compile Include="Controllers\StuLifeController.cs" />
     <Compile Include="Controllers\WebBlogController.cs" />
     <Compile Include="Controllers\WebDevController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\TheMovieDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -214,10 +220,10 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\WebBlog\Index.cshtml" />
+    <Content Include="Views\movie\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
